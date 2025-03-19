@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "FdoBMUURXTJoIJ2tlFKgl0pbu9WIAiBbSF9Mg3IVD/4=",
+  "Source": "BookCatalogRESTAPI",
+  "BasePath": "_content/BookCatalogRESTAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

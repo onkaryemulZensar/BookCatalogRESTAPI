@@ -1,0 +1,29 @@
+2025-03-19 12:29:59.048 +05:30 [INF] Now listening on: https://localhost:7298
+2025-03-19 12:29:59.080 +05:30 [INF] Now listening on: http://localhost:5215
+2025-03-19 12:29:59.142 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-19 12:29:59.143 +05:30 [INF] Hosting environment: Development
+2025-03-19 12:29:59.144 +05:30 [INF] Content root path: C:\Users\OY115305\C# .NET Training\BookCatalog\BookCatalogRestAPI
+2025-03-19 12:30:00.470 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7298/api/books/get-all-books - null null
+2025-03-19 12:30:00.710 +05:30 [INF] Executing endpoint 'BookCatalogRestAPI.Controllers.BooksController.GetBooks (BookCatalogRESTAPI)'
+2025-03-19 12:30:00.739 +05:30 [INF] Route matched with {action = "GetBooks", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[BookCatalogRestAPI.Models.Book]] GetBooks() on controller BookCatalogRestAPI.Controllers.BooksController (BookCatalogRESTAPI).
+2025-03-19 12:30:00.748 +05:30 [INF] Getting all books
+2025-03-19 12:30:00.756 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[BookCatalogRestAPI.Models.Book, BookCatalogRESTAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-19 12:30:00.771 +05:30 [INF] Executed action BookCatalogRestAPI.Controllers.BooksController.GetBooks (BookCatalogRESTAPI) in 23.4568ms
+2025-03-19 12:30:00.775 +05:30 [INF] Executed endpoint 'BookCatalogRestAPI.Controllers.BooksController.GetBooks (BookCatalogRESTAPI)'
+2025-03-19 12:30:00.782 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7298/api/books/get-all-books - 200 null application/json; charset=utf-8 319.6519ms
+2025-03-19 12:30:10.020 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7298/api/books/add - application/json 71
+2025-03-19 12:30:10.024 +05:30 [INF] Executing endpoint 'BookCatalogRestAPI.Controllers.BooksController.AddBook (BookCatalogRESTAPI)'
+2025-03-19 12:30:10.035 +05:30 [INF] Route matched with {action = "AddBook", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddBook(BookCatalogRestAPI.Models.Book) on controller BookCatalogRestAPI.Controllers.BooksController (BookCatalogRESTAPI).
+2025-03-19 12:30:10.178 +05:30 [INF] Adding a new book
+2025-03-19 12:30:10.182 +05:30 [INF] Executing CreatedAtActionResult, writing value of type '<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[BookCatalogRestAPI.Models.Book, BookCatalogRESTAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-19 12:30:10.203 +05:30 [INF] Executed action BookCatalogRestAPI.Controllers.BooksController.AddBook (BookCatalogRESTAPI) in 167.0559ms
+2025-03-19 12:30:10.212 +05:30 [INF] Executed endpoint 'BookCatalogRestAPI.Controllers.BooksController.AddBook (BookCatalogRESTAPI)'
+2025-03-19 12:30:10.218 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7298/api/books/add - 201 null application/json; charset=utf-8 198.6324ms
+2025-03-19 12:30:12.610 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7298/api/books/get-all-books - null null
+2025-03-19 12:30:12.614 +05:30 [INF] Executing endpoint 'BookCatalogRestAPI.Controllers.BooksController.GetBooks (BookCatalogRESTAPI)'
+2025-03-19 12:30:12.616 +05:30 [INF] Route matched with {action = "GetBooks", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[BookCatalogRestAPI.Models.Book]] GetBooks() on controller BookCatalogRestAPI.Controllers.BooksController (BookCatalogRESTAPI).
+2025-03-19 12:30:12.618 +05:30 [INF] Getting all books
+2025-03-19 12:30:12.619 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[BookCatalogRestAPI.Models.Book, BookCatalogRESTAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-19 12:30:12.625 +05:30 [INF] Executed action BookCatalogRestAPI.Controllers.BooksController.GetBooks (BookCatalogRESTAPI) in 7.1176ms
+2025-03-19 12:30:12.626 +05:30 [INF] Executed endpoint 'BookCatalogRestAPI.Controllers.BooksController.GetBooks (BookCatalogRESTAPI)'
+2025-03-19 12:30:12.627 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7298/api/books/get-all-books - 200 null application/json; charset=utf-8 16.6259ms
