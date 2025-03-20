@@ -32,6 +32,19 @@ namespace BookCatalogRestAPI.Tests
         }
 
         [Fact]
+        public void AddBook_ShouldAssignUniqueIds()
+        {
+            var book1 = new Book { Title = "Test Book 1", Author = "Test Author 1", Year = 2021 };
+            var book2 = new Book { Title = "Test Book 2", Author = "Test Author 2", Year = 2022 };
+            _bookService.AddBook(book1);
+            _bookService.AddBook(book2);
+
+            var result = _bookService.GetAllBooks().ToList();
+            Assert.Equal(2, result.Count);
+            Assert.NotEqual(result[0].Id, result[1].Id);
+        }
+
+        [Fact]
         public void GetAllBooks_ShouldReturnAllBooks()
         {
             var book1 = new Book { Title = "Test Book 1", Author = "Test Author 1", Year = 2021 };

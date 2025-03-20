@@ -117,3 +117,4 @@ C:\Users\OY115305\C# .NET Training\BookCatalog\BookCatalogRestAPI.Tests\obj\Debu
 C:\Users\OY115305\C# .NET Training\BookCatalog\BookCatalogRestAPI.Tests\obj\Debug\net8.0\BookCatalogRESTAPI.Tests.pdb
 C:\Users\OY115305\C# .NET Training\BookCatalog\BookCatalogRestAPI.Tests\obj\Debug\net8.0\BookCatalogRESTAPI.Tests.genruntimeconfig.cache
 C:\Users\OY115305\C# .NET Training\BookCatalog\BookCatalogRestAPI.Tests\obj\Debug\net8.0\ref\BookCatalogRESTAPI.Tests.dll
+C:\Users\OY115305\C# .NET Training\BookCatalog\BookCatalogRestAPI.Tests\obj\Debug\net8.0\BookCatalogRESTAPI.Tests.sourcelink.json

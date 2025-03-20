@@ -104,7 +104,6 @@ namespace BookCatalogRestAPI.Controllers
                 return NotFound(new { Message = $"Book with id {id} not found" });
             }
 
-
             _bookService.DeleteBook(id);
 
             return Ok(new { Message = "Book deleted successfully" });

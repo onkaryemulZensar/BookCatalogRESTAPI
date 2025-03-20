@@ -17,7 +17,8 @@ namespace BookCatalogRestAPI.Services
 
         public void AddBook(Book book)
         {
-            book.Id = _books.Count + 1;
+            // Assign a unique ID to the new book
+            book.Id = _books.Any() ? _books.Max(b => b.Id) + 1 : 1;
 
             _books.Add(book);
         }

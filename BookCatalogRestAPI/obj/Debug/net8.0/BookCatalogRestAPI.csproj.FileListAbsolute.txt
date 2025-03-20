@@ -39,3 +39,4 @@ C:\Users\OY115305\C# .NET Training\BookCatalog\BookCatalogRestAPI\obj\Debug\net8
 C:\Users\OY115305\C# .NET Training\BookCatalog\BookCatalogRestAPI\obj\Debug\net8.0\BookCatalogRestAPI.genruntimeconfig.cache
 C:\Users\OY115305\C# .NET Training\BookCatalog\BookCatalogRestAPI\obj\Debug\net8.0\ref\BookCatalogRestAPI.dll
 C:\Users\OY115305\C# .NET Training\BookCatalog\BookCatalogRestAPI\obj\Debug\net8.0\BookCata.17A2A2FD.Up2Date
+C:\Users\OY115305\C# .NET Training\BookCatalog\BookCatalogRestAPI\obj\Debug\net8.0\BookCatalogRESTAPI.sourcelink.json
