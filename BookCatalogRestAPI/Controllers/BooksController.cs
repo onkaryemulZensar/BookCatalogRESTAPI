@@ -68,26 +68,30 @@ namespace BookCatalogRestAPI.Controllers
         // https://localhost:7298/api/books/update/{id} to update a book by ID.
         [HttpPut]
         [Route("update/{id:int}")]
-        public ActionResult UpdateBook(int id, [FromBody] Book book)
+        public ActionResult UpdateBook(int id,[FromBody] Book book)
         {
-            if (id != book.Id)
-            {
-                _logger.LogWarning("Book id mismatch");
-                return BadRequest(new { Message = "Book id mismatch" });
-            }
 
+            var existingBook = _bookService.GetBookById(id);
+
+            if (existingBook == null)
+            {
+                _logger.LogWarning("Book with id {Id} not found", id);
+                return NotFound(new { Message = $"Book with id {id} not found" });
+            }
+               
             if (!ModelState.IsValid)
             {
-                _logger.LogWarning("Invalid book model");
-                return BadRequest(ModelState);
+                 _logger.LogWarning("Invalid book model");
+                 return BadRequest(ModelState);
             }
 
-            _logger.LogInformation("Updating book with id {Id}", id);
-            
-            _bookService.UpdateBook(book);
+             _logger.LogInformation("Updating book with id {Id}", id);
 
-            return Ok(new { Message = "Book updated successfully", book });
+             _bookService.UpdateBook(id, existingBook);
+        
+              return Ok(new { Message = "Book updated successfully", existingBook });
         }
+  
 
         // https://localhost:7298/api/books/delete/{id} to delete a book by ID.
         [HttpDelete]

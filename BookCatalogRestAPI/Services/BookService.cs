@@ -23,9 +23,9 @@ namespace BookCatalogRestAPI.Services
             _books.Add(book);
         }
 
-        public void UpdateBook(Book book)
+        public void UpdateBook(int id, Book book)
         {
-            var existingBook = GetBookById(book.Id);
+            var existingBook = GetBookById(id);
 
             if (existingBook != null)
             {
