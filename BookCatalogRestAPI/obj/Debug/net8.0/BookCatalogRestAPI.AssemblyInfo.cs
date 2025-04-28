@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BookCatalogRESTAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2183edb249ddf16cd2387671fd218a2ab30cb3c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a1fa55a0d6b05cd4c120dcd0a71662fd408074f")]
 [assembly: System.Reflection.AssemblyProductAttribute("BookCatalogRESTAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BookCatalogRESTAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
